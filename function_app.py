@@ -18,7 +18,7 @@ def doppio(req: func.HttpRequest) -> func.HttpResponse:
 
     if value:
         valuex2=value*2
-        return func.HttpResponse(f"il doppio di {value} è {valuex2}")
+        return func.HttpResponse(f"twice {value} is {valuex2}")
     else:
         return func.HttpResponse(
              "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response.",
